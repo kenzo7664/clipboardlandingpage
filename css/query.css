@@ -1,0 +1,19 @@
+@media only screen and (max-width:480px){
+    header{
+        background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    height: 57vh;
+    width: 100vw;
+    background-size: cover;
+    }
+    .logo{
+
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+
+}
