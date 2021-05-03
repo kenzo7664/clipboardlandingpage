@@ -32,8 +32,8 @@ body{
     padding-bottom: 1%;
     border-radius: 30px;
     color: white;
-    background-color: hsl(171, 66%, 44%);
-    box-shadow: 0px 11px 35px 0px hsl(171deg 66% 44%); 
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0px 3px 10px 0px hsl(171deg 66% 44%); 
 }
 .btn2{
     border: 1px solid hsl(233, 100%, 69%);
@@ -45,7 +45,7 @@ body{
     border-radius: 30px;
     color: white;
     background-color:hsl(233, 100%, 69%);
-    box-shadow: 0px 11px 35px 0px hsl(233, 100%, 69%); 
+    box-shadow: 0px 3px 10px 0px hsl(233, 100%, 69%); 
 }
 .buttons{
     margin-top: 3%;
@@ -79,6 +79,18 @@ body{
 }
 .intro4{
     margin-top: 15%;
+}
+.introp{
+    display: none;
+}
+.stp{
+    display: none;
+}
+.intro4p{
+    display: none;
+}
+.st3p{
+    display: none;
 }
 .img2{
     content: url(../images/image-devices.png);
@@ -190,7 +202,7 @@ margin-left: 7%;
     border-radius: 30px;
     color: white;
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 0px 11px 35px 0px hsl(171deg 66% 44%); 
+    box-shadow: 0px 3px 10px 0px hsl(171deg 66% 44%); 
 }
 .btn4{
     border: 1px solid hsl(233, 100%, 69%);
@@ -202,7 +214,7 @@ margin-left: 7%;
     border-radius: 30px;
     color: white;
     background-color:hsl(233, 100%, 69%);
-    box-shadow: 0px 11px 35px 0px hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 10px 0px hsl(233deg 100% 69%);
 }
 .buttons1{
     margin-top: 3%;
@@ -210,6 +222,50 @@ margin-left: 7%;
     margin-bottom: 10%;
 }
 footer{
-    background-color: hsl(201, 11%, 66%);
+    background-color: hsl(201deg 11% 66% / 12%);
     height: 14vh;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-div1{
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-size: 35px;
+}
+.footlogo{
+    width: 40%;
+    margin-top: 17%;
+}
+.foot-div3{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.footerlinks{
+    list-style: none;
+
+}
+.foot-div2{
+    margin-left: 5%;
+}
+.foot-div4{
+    margin-left:1% ;
+    margin-top: 1%;
+}
+.foot-div5{
+    margin-right: 43%;
+    margin-top: 1%;
+}
+.foot-links{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.footer-boxx{
+    display: none;
 }
