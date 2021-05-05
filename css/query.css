@@ -30,8 +30,9 @@
         margin-left: 16%;
         margin-right: 13%;
         font-size: 27px;
-        margin-top: 16%;
+        margin-top: 32%;
         margin-bottom: 7%;
+        display: none;
     }
     .subtext1{
         text-align: center;
@@ -40,7 +41,7 @@
         margin-left: 51%;
         margin-right: -58%;
         font-size: 30px;
-        margin-top: 71%;
+        margin-top: 4%;
     }
     .subtext2{
         text-align: center;
@@ -208,8 +209,11 @@
         margin-top: 16%;
     }
     .intro7{
-        margin-left: 0%;
+        margin-left: -146%;
+        margin-right: -125%;
         font-size: 30px;
+        padding-left: 0%;
+        text-align: center;
         
     }
     .st6{
@@ -226,7 +230,9 @@
         margin-top: 16%;
     }
     .intro8{
-        margin-left: 0%;
+        margin-left: -126%;
+        margin-right: -124%;
+        text-align: center;
         font-size: 30px;
     }
     .st7 {
@@ -245,8 +251,11 @@
         margin-left: 35%;
     }
     .intro9 {
-        margin-left: 7%;
+        margin-left: -135%;
+        margin-right: -136%;
+        padding-left: 0%;
         font-size: 30px;
+        text-align: center;
     }
     .st8 {
         border: 1px solid white;
@@ -340,7 +349,7 @@
     footer{
         display: flex;
         flex-direction: column;
-        height: 130vh;
+        height: 95vh;
         width: 204vw;
     }
     .footer-box1{
@@ -384,6 +393,19 @@
     }
     .ft4{
         margin-bottom: 5%;
+    }
+    .intro{
+       
+    }
+    .textw2{
+        display: block;
+        display: block;
+        border: 1px solid white;
+        font-size: 30px;
+        margin-left: 18%;
+        margin-right: -89%;
+        margin-top: 12%;
+        text-align: center;
     }
 
 
